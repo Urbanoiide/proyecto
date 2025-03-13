@@ -1,0 +1,8 @@
+<h1>{{ tittle }}</h1>
+{% if user.is_authenticated %}
+    {% block content %}
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, totam est. Perspiciatis, velit expedita delectus perferendis non temporibus beatae asperiores natus nostrum aut ab numquam minus atque nulla fuga maxime!</p>
+    {% endblock%}
+{% else %}
+    <p>Login <a href="/accounts/login/">Here</a></p>
+{% endif %}

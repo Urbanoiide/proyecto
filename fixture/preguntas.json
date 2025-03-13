@@ -1,0 +1,111 @@
+[
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 1,
+      "fields": {
+        "texto": "Me siento cómodo(a) aprendiendo a través de la experiencia directa y práctica.",
+        "dimension": "EC",
+        "orden": 1
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 2,
+      "fields": {
+        "texto": "Prefiero involucrarme activamente en actividades y experimentar por mí mismo(a) en lugar de solo leer o escuchar.",
+        "dimension": "EC",
+        "orden": 2
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 3,
+      "fields": {
+        "texto": "Aprendo mejor cuando puedo 'sentir' la situación y experimentar nuevas emociones durante el aprendizaje.",
+        "dimension": "EC",
+        "orden": 3
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 4,
+      "fields": {
+        "texto": "Me gusta observar y reflexionar antes de tomar decisiones o actuar.",
+        "dimension": "OR",
+        "orden": 4
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 5,
+      "fields": {
+        "texto": "Analizo mis experiencias pasadas para extraer aprendizajes y mejorar en el futuro.",
+        "dimension": "OR",
+        "orden": 5
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 6,
+      "fields": {
+        "texto": "Prefiero detenerme a pensar y reflexionar sobre las situaciones antes de participar activamente.",
+        "dimension": "OR",
+        "orden": 6
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 7,
+      "fields": {
+        "texto": "Me resulta fundamental entender la teoría y el razonamiento detrás de lo que aprendo.",
+        "dimension": "CA",
+        "orden": 7
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 8,
+      "fields": {
+        "texto": "Organizo la información en modelos o conceptos para comprenderla mejor.",
+        "dimension": "CA",
+        "orden": 8
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 9,
+      "fields": {
+        "texto": "Prefiero analizar y sistematizar la información, buscando patrones y relaciones lógicas.",
+        "dimension": "CA",
+        "orden": 9
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 10,
+      "fields": {
+        "texto": "Aprendo mejor cuando aplico de inmediato lo que he aprendido en situaciones prácticas.",
+        "dimension": "EA",
+        "orden": 10
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 11,
+      "fields": {
+        "texto": "Me motiva enfrentar desafíos prácticos que me permitan experimentar y probar nuevas ideas.",
+        "dimension": "EA",
+        "orden": 11
+      }
+    },
+    {
+      "model": "app_kolb.pregunta",
+      "pk": 12,
+      "fields": {
+        "texto": "Prefiero aprender haciendo, poniendo en práctica mis conocimientos en lugar de solo estudiarlos.",
+        "dimension": "EA",
+        "orden": 12
+      }
+    }
+  ]
+  

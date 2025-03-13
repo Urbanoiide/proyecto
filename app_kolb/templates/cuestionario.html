@@ -1,0 +1,17 @@
+<!-- cuestionario.html -->
+{% extends 'base.html' %}
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    {% for pregunta in preguntas %}
+        <div>
+            <label>{{ pregunta.texto }}</label>
+            {% for valor, texto in opciones %}
+                <input type="radio" name="{{ pregunta.id }}" value="{{ valor }}" required> {{ texto }}
+            {% endfor %}
+        </div>
+    {% endfor %}
+    <button type="submit">Enviar</button>
+</form>
+
+{% endblock %}
